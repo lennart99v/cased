@@ -1,6 +1,11 @@
 body {
   margin: 0 auto;
   background-color: #e9e6e1;
+  color: #2a465c;
+}
+
+h2 {
+  text-align: center;
 }
 
 .header {
@@ -72,7 +77,12 @@ body {
   width: 1000px;
 }
 
+.start__text {
+  text-align: center;
+}
+
 footer {
   background-color: #2b475c;
+  color: #e9e6e1;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,9 +1,14 @@
 body {
     margin: 0 auto;
     background-color: #e9e6e1;
+    color: #2a465c;
     // font-family: "Poppins", sans-serif;
     // font-weight: 400;
     // color: hsl(213, 69%, 10%);
+  }
+
+  h2 {
+      text-align: center;
   }
 
 
@@ -59,7 +64,7 @@ body {
     }
 
     &__text {
-
+        text-align: center;
     }
 }
 
@@ -91,5 +96,6 @@ body {
 
 footer {
     background-color: #2b475c;
+    color: #e9e6e1;
 }
 
