@@ -37,7 +37,8 @@ body {
 //   START   ------------------------------
 
 .start {
-    
+    display: flex;
+    flex-direction: column;
     padding-top: 10%;
 
     &__images {
@@ -55,6 +56,10 @@ body {
         flex-grow: 0;
         height: 100%;
         width: 1000px;
+    }
+
+    &__text {
+
     }
 }
 
