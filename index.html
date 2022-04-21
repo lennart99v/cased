@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -66,23 +70,75 @@
         <section class="about" id="about">
             <h2>Over ons</h2>
             <p>Wij zijn vier 3de jaarstudenten aan de Arteveldehogeschool in de afstudeerrichting KMO-management. Dit project is opgestart in het kader van onze
-                 bachelorproef. Wij kregen dit academiejaar de kans om onze eigen minionderneming op te starten. </p>
+                 bachelorproef. Wij kregen dit academiejaar de kans om onze eigen mini-onderneming op te starten. </p>
         </section>
         <section class="contact" id="contact">
             <h3>Indien u nog verdere vragen heeft, kan u steeds contact met ons opnemen via onderstaand contactformulier: </h3>
+            <div class="contact__wrapper">
+            <div class="contact__box">
+                <label for="name" class="contact__box-label"
+                  >Naam:</label
+                >
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="contact__box-input"
+                />
+              </div>
+              <div class="contact__box">
+                <label for="email" class="contact__box-label"
+                  >E-mail:</label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="contact__box-input"
+                />
+              </div>
+              <div class="contact__box box-text">
+                <label for="text-box" class="contact__box-label"
+                  >Vragen:</label
+                >
+                <textarea
+                  name="text-box"
+                  id="text-box"
+                  class="contact__box-input"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+            </div>
+            <button type="submit" class="contact__button">
+                Verzend mijn vragen
+            </button>
         </section>
     </main>
-    <footer>
-        <div>
-            <p> Contact: 
-                E-mail: info@CASED.be
-                Adres : Oordegemstraat 33, 9520 Vlierzele
-            </p>
+    <footer class="footer">
+        <div class="footer__info ">
+            <h4>Contact: </h4> 
+            <div class="footer__info-box ">
+                <p class="info-text">E-mail: </p>
+                <a href="mailto:info@CASED.be" target="_blank">info@CASED.be</a>
+            </div>
+            <div class="footer__info-box">
+                <p class="info-text">Adres: </p>
+                <a href="https://goo.gl/maps/bS2Uejzo6sDSJEUWA " target="_blank">Oordegemstraat 33, 9520 Vlierzele</a>
+            </div>
         </div>
-        <div>
+        <div class="footer__media">
             <p> Social media:  </p>
-            <a href="https://www.facebook.com/CASED-106440295304611/">Facebook</a>
-            <a href="https://www.instagram.com/cased.be/?hl=nl">Instagram</a>
+            <div class="wrapper">
+                <a href="https://www.facebook.com/CASED-106440295304611/" target="_blank" class="icon facebook">
+                  <div class="tooltip">Facebook</div>
+                  <span><i class="fab fa-facebook-f"></i></span>
+                </a>
+                <a href="https://www.instagram.com/cased.be/?hl=nl" target="_blank" class="icon instagram">
+                  <div class="tooltip">Instagram</div>
+                  <span><i class="fab fa-instagram"></i></span>
+                </a>
+            </div>
            
         </div>
     </footer>
