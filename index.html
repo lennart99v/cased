@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +19,7 @@
             <a href="#product" class="main-nav__item">Ons product</a>
             <a href="#process" class="main-nav__item">Productieproces</a>
             <a href="#about" class="main-nav__item">Over ons</a>
+            <a href="#contact" class="main-nav__item">Contact</a>
           </nav>
     </header>
     <main class="main">
@@ -35,14 +37,20 @@
             </p>
         </section>
         <section class="product" id="product">
-            <div>
+            <div class="product__container">
+            <div class="product__intro">
                 <h2>Ons product</h2>
                 <p>
                     Wij bieden opbergtassen en opberglussen aan uit 100% leder voor het ordelijk en zakelijk opbergen van kabels van uw GSM, PC en andere elektronica
                     accessoires. Onze producten worden volledig hand gemaakt, hier in België. 
                 </p>
             </div>
-            <div>
+            <div class="product__images">
+                <img src="images/IMG_6708-2.jpg" alt="" class="product__img">
+                <img src="images/IMG_6735-2.jpg" alt="" class="product__img">
+                <img src="images/Opberglusje.jpeg" alt="" class="product__img">
+            </div>
+            <div class="product__origin">
                 <h3>Hoe is dit product ontstaan?</h3>
                 <p>
                     Zelf ondervonden wij dat kabels snel verloren of in de knoop raakten en snellere slijtage ondergingen bij het foutief opbergen. Hiervoor wouden wij een
@@ -50,6 +58,7 @@
                     manier blijven al uw kabels ordelijk en veilig op dezelfde plaats opgeborgen. Ook is het eenvoudig mee te nemen indien u zich moet verplaatsen. 
                 </p>
             </div>
+        </div>
         </section>
         <section class="process" id="process">
             <h2>Productieproces</h2>
@@ -120,21 +129,21 @@
             <h4>Contact: </h4> 
             <div class="footer__info-box ">
                 <p class="info-text">E-mail: </p>
-                <a href="mailto:info@CASED.be" target="_blank">info@CASED.be</a>
+                <a href="mailto:info@CASED.be" target="_blank" rel="noopener noreferrer">info@CASED.be</a>
             </div>
             <div class="footer__info-box">
                 <p class="info-text">Adres: </p>
-                <a href="https://goo.gl/maps/bS2Uejzo6sDSJEUWA " target="_blank">Oordegemstraat 33, 9520 Vlierzele</a>
+                <a href="https://goo.gl/maps/bS2Uejzo6sDSJEUWA " target="_blank" rel="noopener noreferrer">Oordegemstraat 33, 9520 Vlierzele</a>
             </div>
         </div>
         <div class="footer__media">
             <p> Social media:  </p>
             <div class="wrapper">
-                <a href="https://www.facebook.com/CASED-106440295304611/" target="_blank" class="icon facebook">
+                <a href="https://www.facebook.com/CASED-106440295304611/" target="_blank" rel="noopener noreferrer" class="icon facebook">
                   <div class="tooltip">Facebook</div>
                   <span><i class="fab fa-facebook-f"></i></span>
                 </a>
-                <a href="https://www.instagram.com/cased.be/?hl=nl" target="_blank" class="icon instagram">
+                <a href="https://www.instagram.com/cased.be/?hl=nl" target="_blank" rel="noopener noreferrer" class="icon instagram">
                   <div class="tooltip">Instagram</div>
                   <span><i class="fab fa-instagram"></i></span>
                 </a>

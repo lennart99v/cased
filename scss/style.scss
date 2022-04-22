@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,500&display=swap');
+
 body {
     margin: 0 auto;
     background-color: #e9e6e1;
     color: #2a465c;
     font-family: 'Playfair Display', serif;
-    // font-family: "Poppins", sans-serif;
-    // font-weight: 400;
-    // color: hsl(213, 69%, 10%);
+    line-height: 1.4;
+   
   }
 
 h2, h3 {
       text-align: center;
+       font-weight: 700;
 }
 
 main {
-    padding: 2em;
+    padding: 0 5em;
 }
   
 //   HEADER   ------------------------------
@@ -69,6 +71,7 @@ main {
     }
 
     &__text {
+        padding-top: 4em;
         text-align: center;
     }
 }
@@ -76,7 +79,46 @@ main {
 //   PRODUCT   ------------------------------
 
 .product {
-    // 
+    background-color: white;
+    margin-top: 4em;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.05),
+    0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.05),
+    0 16px 16px rgba(0, 0, 0, 0.05);
+    display: flex;  
+    justify-content: center;
+        &__container {
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(
+            to top,
+            hsla(52, 90%, 50%, 0) 0,
+            hsla(151.4,19%,45.5%, 0.4) 0,
+            hsla(206.4,37.3%,26.3%, 0.4) 90%
+        );
+        padding: 3em;
+        border-radius: 15px;
+        }
+
+        &__intro {
+            text-align: center;
+        }
+
+        &__images {
+            padding: 2em 0;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        &__img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+
+        &__origin {
+            text-align: justify;
+        }
 }
 
 //   PROCESS   ------------------------------
