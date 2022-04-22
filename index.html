@@ -13,8 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header class="header"><a href="#start">
         <img src="images/Logo CASED PNG.png" alt="logo" class="header__img">
+    </a>
         <nav class="header__nav"> 
             <a href="#product" class="main-nav__item">Ons product</a>
             <a href="#process" class="main-nav__item">Productieproces</a>
@@ -39,8 +40,8 @@
         <section class="product" id="product">
             <div class="product__container">
             <div class="product__intro">
-                <h2>Ons product</h2>
-                <p>
+                <h2 class="product__title">Ons product</h2>
+                <p class="product__text">
                     Wij bieden opbergtassen en opberglussen aan uit 100% leder voor het ordelijk en zakelijk opbergen van kabels van uw GSM, PC en andere elektronica
                     accessoires. Onze producten worden volledig hand gemaakt, hier in België. 
                 </p>
@@ -51,8 +52,8 @@
                 <img src="images/Opberglusje.jpeg" alt="" class="product__img">
             </div>
             <div class="product__origin">
-                <h3>Hoe is dit product ontstaan?</h3>
-                <p>
+                <h3 class="product__title">Hoe is dit product ontstaan?</h3>
+                <p class="product__text">
                     Zelf ondervonden wij dat kabels snel verloren of in de knoop raakten en snellere slijtage ondergingen bij het foutief opbergen. Hiervoor wouden wij een
                     geschikte oplossing vinden. Zo kwamen wij op het idee om deze opbergtassen en opberglussen te maken die door iedereen kunnen gebruikt worden. Op deze
                     manier blijven al uw kabels ordelijk en veilig op dezelfde plaats opgeborgen. Ook is het eenvoudig mee te nemen indien u zich moet verplaatsen. 
@@ -61,28 +62,47 @@
         </div>
         </section>
         <section class="process" id="process">
-            <h2>Productieproces</h2>
-            <p>Om tot ons product te komen, worden er relatief veel stappen doorlopen. Ons product wordt opgemaakt uit twee grote delen: de binnenzijde van varkensleder
-                 en de buitenzijde van splitleder. Het proces bestaat uit volgende stappen:</p>
-                 <ol>
-                     <li>Om te beginnen worden alle onderdelen in de juiste maat uitgetekend. Dit wil zeggen dat het varkensleder, splitleder, verharding en de 
+            <div class="process__container">
+                <div class="process__intro">
+                    <h2 class="process__title">Productieproces</h2>
+                    <p class="process__text">Om tot ons product te komen, worden er relatief veel stappen doorlopen. Ons product wordt opgemaakt uit twee grote delen: de binnenzijde van varkensleder
+                    en de buitenzijde van splitleder. Het proces bestaat uit volgende stappen:</p>
+                </div>
+                <div class="process__list">
+                    <ol class="list">
+                        <li class="list__item"><img src="images/Afbeelding1.jpg" alt="" class="list__img">1. Om te beginnen worden alle onderdelen in de juiste maat uitgetekend. Dit wil zeggen dat het varkensleder, splitleder, verharding en de 
                          lusjes worden opgemeten en uitgesneden. </li>
-                     <li>Nadat deze op maat zijn gemaakt, wordt de rekker al bevestigd aan het varkensleder. </li>
-                     <li>De verharding wordt bevestigd aan de buitenzijde met een speciale lijm voor leder. </li>
-                     <li>De buitenzijde van de lusjes en het leder van de opbergtassen worden opgewarmd met een lederbrander zodat deze niet kunnen uitrafelen. </li>
-                     <li>Dan wordt de lus om de opbergtas te sluiten gelijmd aan het leder.</li>
-                     <li>Ook de opberglussen worden gestikt aan de binnenzijde van de opbergtas en de drukknopen worden bevestigd. </li>
-                     <li>Eens deze stappen allemaal zijn voltooid, wordt de binnenzijde bevestigd aan de buitenzijde. Ook dit wordt gedaan met de speciale lijm voor leder. </li>
-                     <li>Als laatste wordt er langs de rand gestikt zodat alles goed op zijn plaats blijft zitten. Hiervoor wordt er een verdund stuk leder gebruikt zodat er een verfijnde afwerking is. </li>
-                 </ol>
+                        <li class="list__item"><img src="images/Afbeelding2.jpg" alt="" class="list__img">2. Nadat deze op maat zijn gemaakt, wordt de rekker al bevestigd aan het varkensleder. </li>
+                        <li class="list__item"><img src="images/Afbeelding3.jpg" alt="" class="list__img">3. De verharding wordt bevestigd aan de buitenzijde met een speciale lijm voor leder. </li>
+                        <li class="list__item"><img src="images/Afbeelding4.jpg" alt="" class="list__img">4. De buitenzijde van de lusjes en het leder van de opbergtassen worden opgewarmd met een lederbrander zodat deze niet kunnen uitrafelen. </li>
+                        <li class="list__item"><img src="images/Afbeelding5.jpg" alt="" class="list__img">5. Dan wordt de lus om de opbergtas te sluiten gelijmd aan het leder.</li>
+                        <li class="list__item"><img src="images/Afbeelding6.jpg" alt="" class="list__img">6. Ook de opberglussen worden gestikt aan de binnenzijde van de opbergtas en de drukknopen worden bevestigd. </li>
+                        <li class="list__item"><img src="images/Afbeelding7.jpg" alt="" class="list__img">7. Eens deze stappen allemaal zijn voltooid, wordt de binnenzijde bevestigd aan de buitenzijde. Ook dit wordt gedaan met de speciale lijm voor leder. </li>
+                        <li class="list__item"><img src="images/IMG_1893.JPG" alt=""  class="list__img">8. Als laatste wordt er langs de rand gestikt zodat alles goed op zijn plaats blijft zitten. Hiervoor wordt er een verdund stuk leder gebruikt zodat er een verfijnde afwerking is. </li>
+                    </ol>
+                </div>
+            </div>
         </section>
         <section class="about" id="about">
-            <h2>Over ons</h2>
-            <p>Wij zijn vier 3de jaarstudenten aan de Arteveldehogeschool in de afstudeerrichting KMO-management. Dit project is opgestart in het kader van onze
-                 bachelorproef. Wij kregen dit academiejaar de kans om onze eigen mini-onderneming op te starten. </p>
+            <div class="about__container">
+                <div class="about__intro">
+                    <h2 class="about__title">Over ons</h2>
+                    <p class="about__text">Wij zijn vier 3de jaarstudenten aan de Arteveldehogeschool in de afstudeerrichting KMO-management. Dit project is opgestart in het kader van onze
+                    bachelorproef. Wij kregen dit academiejaar de kans om onze eigen mini-onderneming op te starten. </p>
+                    <h2 class="about__title">Ons team:</h2>
+                </div>  
+                <div class="about__images">
+                    <img src="images/Isabeau Steyaert.png" alt="" class="about__img">
+                    <img src="images/Maaren Buelens.png" alt="" class="about__img">
+                    <img src="images/Marthe Eekhout.png" alt="" class="about__img">
+                    <img src="images/Mats Sluijter.png" alt="" class="about__img">
+                </div>
+        </div>
+       
         </section>
         <section class="contact" id="contact">
-            <h3>Indien u nog verdere vragen heeft, kan u steeds contact met ons opnemen via onderstaand contactformulier: </h3>
+            <div class="contact__container">
+            <h3 class="contact__title">Indien u nog verdere vragen heeft, kan u steeds contact met ons opnemen via onderstaand contactformulier: </h3>
             <div class="contact__wrapper">
             <div class="contact__box">
                 <label for="name" class="contact__box-label"
@@ -122,6 +142,7 @@
             <button type="submit" class="contact__button">
                 Verzend mijn vragen
             </button>
+        </div>
         </section>
     </main>
     <footer class="footer">
@@ -129,11 +150,11 @@
             <h4>Contact: </h4> 
             <div class="footer__info-box ">
                 <p class="info-text">E-mail: </p>
-                <a href="mailto:info@CASED.be" target="_blank" rel="noopener noreferrer">info@CASED.be</a>
+                <a href="mailto:info@CASED.be" target="_blank" rel="noopener noreferrer" class="info-a">info@CASED.be</a>
             </div>
             <div class="footer__info-box">
                 <p class="info-text">Adres: </p>
-                <a href="https://goo.gl/maps/bS2Uejzo6sDSJEUWA " target="_blank" rel="noopener noreferrer">Oordegemstraat 33, 9520 Vlierzele</a>
+                <a href="https://goo.gl/maps/bS2Uejzo6sDSJEUWA " target="_blank" rel="noopener noreferrer" class="info-a">Oordegemstraat 33, 9520 Vlierzele</a>
             </div>
         </div>
         <div class="footer__media">
